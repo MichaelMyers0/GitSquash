@@ -1,0 +1,29 @@
+{
+  "name": "my_server",
+  "version": "1.0.0",
+  "description": "practicing git",
+  "keywords": [
+    "git",
+    "JavaScript",
+    "NodeJS"
+  ],
+  "homepage": "https://github.com/MichaelMyers0/GitSquash#readme",
+  "bugs": {
+    "url": "https://github.com/MichaelMyers0/GitSquash/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelMyers0/GitSquash.git"
+  },
+  "license": "MIT",
+  "author": "Jack Hanley",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies" : {
+	  "http" : "*"
+  }
+}
